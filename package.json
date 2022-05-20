@@ -23,11 +23,10 @@
     "sass": "sass midt.scss:midt.css --no-source-map",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\""
   },
-  "dependencies": {},
   "devDependencies": {
-    "chokidar-cli": "^2.1.0",
-    "np": "^6.2.4",
-    "sass": "^1.26.3",
-    "style-dictionary": "^2.9.0"
+    "chokidar-cli": "^3.0.0",
+    "np": "^7.6.1",
+    "sass": "^1.52.0",
+    "style-dictionary": "^3.7.0"
   }
 }
