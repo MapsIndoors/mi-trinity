@@ -1,0 +1,228 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 20 May 2022 22:05:25 GMT
+ */
+
+:root {
+  --z-index-top: 999999;
+  --z-index-popup: 950;
+  --z-index-modal: 900;
+  --z-index-spinner: 800;
+  --z-index-overlay: 700;
+  --z-index-dropdown: 600;
+  --z-index-toast: 500;
+  --z-index-header: 400;
+  --z-index-sticky: 300;
+  --z-index-mask: 200;
+  --z-index-masked: 100;
+  --z-index-default: 1;
+  --z-index-deep: -999999;
+  --transition-slowly: 600ms ease;
+  --transition-quickly: 300ms ease;
+  --spacing-xxxx-large: 64px;
+  --spacing-xxx-large: 48px;
+  --spacing-xx-large: 40px;
+  --spacing-x-large: 32px;
+  --spacing-large: 24px;
+  --spacing-medium: 16px;
+  --spacing-small: 12px;
+  --spacing-x-small: 8px;
+  --spacing-xx-small: 4px;
+  --spacing-xxx-small: 2px;
+  --rounding-circle: 50%;
+  --rounding-pill: 9999px;
+  --rounding-x-large: 16px;
+  --rounding-large: 8px;
+  --rounding-medium: 4px;
+  --rounding-small: 2px;
+  --rounding-x-small: 1px;
+  --rounding-xx-small: 0px;
+  --opacity-xxx-large: 1;
+  --opacity-xx-large: 0.88;
+  --opacity-x-large: 0.72;
+  --opacity-large: 0.48;
+  --opacity-medium: 0.24;
+  --opacity-small: 0.16;
+  --opacity-x-small: 0.08;
+  --opacity-xx-small: 0;
+  --icon-size-xx-large: 64px;
+  --icon-size-x-large: 48px;
+  --icon-size-large: 32px;
+  --icon-size-medium: 24px;
+  --icon-size-small: 16px;
+  --font-measure-large: 34rem;
+  --font-measure-medium: 30rem;
+  --font-measure-small: 20rem;
+  --font-tracking-x-large: .25rem;
+  --font-tracking-large: .1rem;
+  --font-tracking-medium: normal;
+  --font-tracking-small: -.05rem;
+  --font-weight-xx-large: 700; /* Bold */
+  --font-weight-x-large: 600; /* Semi-bold */
+  --font-weight-large: 500; /* Medium */
+  --font-weight-medium: 400; /* Normal */
+  --font-weight-small: 300; /* Light */
+  --font-size-xxxx-large: 4.5rem; /* Approximately 72px. */
+  --font-size-xxx-large: 3rem; /* Approximately 48px. */
+  --font-size-xx-large: 2.25rem; /* Approximately 36px. */
+  --font-size-x-large: 1.5rem; /* Approximately 24px. */
+  --font-size-large: 1.25rem; /* Approximately 20px. */
+  --font-size-medium: 1rem; /* Approximately 16px. This is the base size for all fonts on all platforms. */
+  --font-size-small: 0.875rem;
+  --font-size-x-small: 0.75rem;
+  --font-family-serif: Georgia, Times, Times New Roman, serif;
+  --font-family-monospace: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --elevation-x-large: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 16px 16px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 8px 8px rgba(0, 0, 0, 0.12);
+  --elevation-large: 0px 16px 16px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 8px 8px rgba(0, 0, 0, 0.12);
+  --elevation-medium: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.18), 0px 8px 8px rgba(0, 0, 0, 0.16);
+  --elevation-small: 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.18), 0px 1px 1px rgba(0, 0, 0, 0.2);
+  --elevation-x-small: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2);
+  --color-dusk-100: #292537; /* The a11y rating of white on top of this color: AAA */
+  --color-dusk-90: #3a3154; /* The a11y rating of white on top of this color: AAA */
+  --color-dusk-80: #4e4077; /* The a11y rating of white on top of this color: AAA */
+  --color-dusk-70: #645397; /* The a11y rating of white on top of this color: AA */
+  --color-dusk-60: #7866b2; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-dusk-50: #9987cf; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-dusk-40: #b5a6e3; /* The a11y rating of black on top of this color: AAA */
+  --color-dusk-30: #cec1f0; /* The a11y rating of black on top of this color: AAA */
+  --color-dusk-20: #e5def7; /* The a11y rating of black on top of this color: AAA */
+  --color-dusk-10: #f4f2f7; /* The a11y rating of black on top of this color: AAA */
+  --color-slate-100: #1d2830; /* The a11y rating of white on top of this color: AAA */
+  --color-slate-90: #243947; /* The a11y rating of white on top of this color: AAA */
+  --color-slate-80: #2c4d63; /* The a11y rating of white on top of this color: AAA */
+  --color-slate-70: #376281; /* The a11y rating of white on top of this color: AA */
+  --color-slate-60: #487a9d; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-slate-50: #5c94bc; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-slate-40: #84b7db; /* The a11y rating of black on top of this color: AAA */
+  --color-slate-30: #a8ceeb; /* The a11y rating of black on top of this color: AAA */
+  --color-slate-20: #cce3f5; /* The a11y rating of black on top of this color: AAA */
+  --color-slate-10: #edf4f7; /* The a11y rating of black on top of this color: AAA */
+  --color-teal-100: #092a28; /* The a11y rating of white on top of this color: AAA */
+  --color-teal-90: #0b3c39; /* The a11y rating of white on top of this color: AAA */
+  --color-teal-80: #0d544f; /* The a11y rating of white on top of this color: AAA */
+  --color-teal-70: #116963; /* The a11y rating of white on top of this color: AA */
+  --color-teal-60: #17827b; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-teal-50: #289f97; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-teal-40: #45bfb7; /* The a11y rating of black on top of this color: AAA */
+  --color-teal-30: #6dd9d2; /* The a11y rating of black on top of this color: AAA */
+  --color-teal-20: #a6ede9; /* The a11y rating of black on top of this color: AAA */
+  --color-teal-10: #e4f7f6; /* The a11y rating of black on top of this color: AAA */
+  --color-sky-100: #0c2837; /* The a11y rating of white on top of this color: AAA */
+  --color-sky-90: #093953; /* The a11y rating of white on top of this color: AAA */
+  --color-sky-80: #064c6f; /* The a11y rating of white on top of this color: AAA */
+  --color-sky-70: #066493; /* The a11y rating of white on top of this color: AA. */
+  --color-sky-60: #0c7ab0; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-sky-50: #229bd8; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-sky-40: #54baed; /* The a11y rating of black on top of this color: AAA */
+  --color-sky-30: #8dd4f7; /* The a11y rating of black on top of this color: AAA */
+  --color-sky-20: #bde6fa; /* The a11y rating of black on top of this color: AAA */
+  --color-sky-10: #eaf5fa; /* The a11y rating of black on top of this color: AAA */
+  --color-indigo-100: #202056; /* The a11y rating of white on top of this color: AAA */
+  --color-indigo-90: #28288a; /* The a11y rating of white on top of this color: AAA */
+  --color-indigo-80: #3737b3; /* The a11y rating of white on top of this color: AAA */
+  --color-indigo-70: #4d4dd1; /* The a11y rating of white on top of this color: AA */
+  --color-indigo-60: #6565e6; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-indigo-50: #8787f2; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-indigo-40: #a8a8fa; /* The a11y rating of black on top of this color: AAA */
+  --color-indigo-30: #c0c0fc; /* The a11y rating of black on top of this color: AAA */
+  --color-indigo-20: #dedefc; /* The a11y rating of black on top of this color: AAA */
+  --color-indigo-10: #f3f3fc; /* The a11y rating of black on top of this color: AAA */
+  --color-magenta-100: #421527; /* The a11y rating of white on top of this color: AAA */
+  --color-magenta-90: #601534; /* The a11y rating of white on top of this color: AAA */
+  --color-magenta-80: #8c1245; /* The a11y rating of white on top of this color: AAA */
+  --color-magenta-70: #af1254; /* The a11y rating of white on top of this color: AA */
+  --color-magenta-60: #d6246e; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-magenta-50: #ed5494; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-magenta-40: #f78db9; /* The a11y rating of black on top of this color: AAA */
+  --color-magenta-30: #fab2d0; /* The a11y rating of black on top of this color: AAA */
+  --color-magenta-20: #fad6e5; /* The a11y rating of black on top of this color: AAA */
+  --color-magenta-10: #faf0f4; /* The a11y rating of black on top of this color: AAA */
+  --color-purple-100: #381d54; /* The a11y rating of white on top of this color: AAA */
+  --color-purple-90: #4a2173; /* The a11y rating of white on top of this color: AAA */
+  --color-purple-80: #632b9c; /* The a11y rating of white on top of this color: AAA */
+  --color-purple-70: #7d3cbe; /* The a11y rating of white on top of this color: AA */
+  --color-purple-60: #9657d6; /* The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA. */
+  --color-purple-50: #ad73e8; /* The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large. */
+  --color-purple-40: #c79cf2; /* The a11y rating of black on top of this color: AAA */
+  --color-purple-30: #dabbf7; /* The a11y rating of black on top of this color: AAA */
+  --color-purple-20: #ebdbfa; /* The a11y rating of black on top of this color: AAA */
+  --color-purple-10: #f5f0fa; /* The a11y rating of black on top of this color: AAA */
+  --color-bronze-100: #32200c; /* The a11y rating of white on top of this color: AAA */
+  --color-bronze-90: #4c2f0b; /* The a11y rating of white on top of this color: AAA */
+  --color-bronze-80: #693d07; /* The a11y rating of white on top of this color: AAA */
+  --color-bronze-70: #8c4e03; /* The a11y rating of white on top of this color: AA */
+  --color-bronze-60: #ad5f00; /* The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large */
+  --color-bronze-50: #d07a11; /* The a11y rating of black on top of this color: AA */
+  --color-bronze-40: #e99c3f; /* The a11y rating of black on top of this color: AAA */
+  --color-bronze-30: #f5bb75; /* The a11y rating of black on top of this color: AAA */
+  --color-bronze-20: #fad7ae; /* The a11y rating of black on top of this color: AAA */
+  --color-bronze-10: #fcf3e8; /* The a11y rating of black on top of this color: AAA */
+  --color-blue-100: #15243c; /* The a11y rating of white on top of this color: AAA */
+  --color-blue-90: #103570; /* The a11y rating of white on top of this color: AAA */
+  --color-blue-80: #114497; /* The a11y rating of white on top of this color: AAA */
+  --color-blue-70: #1d5bbf; /* The a11y rating of white on top of this color: AA */
+  --color-blue-60: #3071d9; /* The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large */
+  --color-blue-50: #5691f0; /* The a11y rating of black on top of this color: AA */
+  --color-blue-40: #85b2fa; /* The a11y rating of black on top of this color: AAA */
+  --color-blue-30: #abcafc; /* The a11y rating of black on top of this color: AAA */
+  --color-blue-20: #cfe0fc; /* The a11y rating of black on top of this color: AAA */
+  --color-blue-10: #eef4fc; /* The a11y rating of black on top of this color: AAA */
+  --color-green-100: #112c1c; /* The a11y rating of white on top of this color: AAA */
+  --color-green-90: #153d25; /* The a11y rating of white on top of this color: AAA */
+  --color-green-80: #1a5130; /* The a11y rating of white on top of this color: AAA */
+  --color-green-70: #20693e; /* The a11y rating of white on top of this color: AA */
+  --color-green-60: #2a844e; /* The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large */
+  --color-green-50: #3ba064; /* The a11y rating of black on top of this color: AA */
+  --color-green-40: #56c281; /* The a11y rating of black on top of this color: AAA */
+  --color-green-30: #7bdba1; /* The a11y rating of black on top of this color: AAA */
+  --color-green-20: #abedc5; /* The a11y rating of black on top of this color: AAA */
+  --color-green-10: #e0faeb; /* The a11y rating of black on top of this color: AAA */
+  --color-red-100: #451717; /* The a11y rating of white on top of this color: AAA */
+  --color-red-90: #661414; /* The a11y rating of white on top of this color: AAA */
+  --color-red-80: #900e0e; /* The a11y rating of white on top of this color: AAA */
+  --color-red-70: #ba0d0d; /* The a11y rating of white on top of this color: AA */
+  --color-red-60: #de1b1b; /* The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large */
+  --color-red-50: #f55151; /* The a11y rating of black on top of this color: AA */
+  --color-red-40: #fa8e8e; /* The a11y rating of black on top of this color: AAA */
+  --color-red-30: #fab7b7; /* The a11y rating of black on top of this color: AAA */
+  --color-red-20: #fad6d6; /* The a11y rating of black on top of this color: AAA */
+  --color-red-10: #faf0f0; /* The a11y rating of black on top of this color: AAA */
+  --color-gray-100: #343941; /* The a11y rating of white on top of this color: AAA */
+  --color-gray-90: #444b55; /* The a11y rating of white on top of this color: AAA */
+  --color-gray-80: #59616e; /* The a11y rating of white on top of this color: AA */
+  --color-gray-70: #707a89; /* The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA */
+  --color-gray-60: #8d98aa; /* The a11y rating of black on top of this color: AA */
+  --color-gray-50: #aeb9cb; /* The a11y rating of black on top of this color: AAA */
+  --color-gray-40: #c8d0e0; /* The a11y rating of black on top of this color: AAA */
+  --color-gray-30: #dee3ed; /* The a11y rating of black on top of this color: AAA */
+  --color-gray-20: #ebeff5; /* The a11y rating of black on top of this color: AAA */
+  --color-gray-10: #f5f7fa; /* The a11y rating of black on top of this color: AAA */
+  --color-hotorchid-base: #ef6cce;
+  --color-transparent-base: rgba(0, 0, 0, 0); /* This is a 100% transparent color. */
+  --color-white-white: #ffffff;
+  --color-white-base: #fcfcfc; /* This is the standard background color. */
+  --color-black-black: #000000; /* The a11y rating of white on top of this color: AAA */
+  --color-black-base: #1e2025; /* The a11y rating of white on top of this color: AAA */
+  --breakpoints-xx-large: only screen and (min-width: 1220px); /* Targets desktop devices from 1220px and up */
+  --breakpoints-x-large: only screen and (min-width: 1025px); /* Targets desktop devices from 1025px and up */
+  --breakpoints-large: only screen and (min-width: 992px); /* Targets landscape tablets from 992px and up */
+  --breakpoints-medium: only screen and (min-width: 768px); /* Targets portrait tablets from 768px and up */
+  --breakpoints-small: only screen and (min-width: 576px); /* Targets devices between 576px and up */
+  --breakpoints-x-small: only screen and (max-width: 575px); /* Targets devices between 0-575px */
+  --breakpoints-xx-small: only screen and (max-width: 360px); /* Targets devices between 0-360px */
+  --font-family-sans-serif: Inter, var(--font-family-system);
+  --color-dusk-base: var(--color-dusk-60);
+  --color-slate-base: var(--color-slate-60);
+  --color-teal-base: var(--color-teal-60);
+  --color-sky-base: var(--color-sky-60);
+  --color-indigo-base: var(--color-indigo-60);
+  --color-magenta-base: var(--color-magenta-60);
+  --color-purple-base: var(--color-purple-60);
+  --color-bronze-base: var(--color-bronze-60);
+  --color-blue-base: var(--color-blue-60);
+  --color-green-base: var(--color-green-60);
+  --color-red-base: var(--color-red-60);
+  --color-gray-base: var(--color-gray-60);
+  --font-family-raleway: Raleway, var(--font-family-sans-serif);
+}
