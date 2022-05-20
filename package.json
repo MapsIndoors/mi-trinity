@@ -21,7 +21,8 @@
     "clean": "rm -rf build",
     "sass-watch": "sass --watch midt.scss:midt.css --no-source-map",
     "sass": "sass midt.scss:midt.css --no-source-map",
-    "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\""
+    "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
+    "test": "echo \"no tests lol\" && exit 1"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
