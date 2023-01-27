@@ -1,7 +1,36 @@
 
 // Do not edit directly
-// Generated on Fri, 20 May 2022 22:05:25 GMT
+// Generated on Thu, 26 Jan 2023 20:56:14 GMT
 
+$brand-colors-electric-purple-20: #e5dafc;
+$brand-colors-electric-purple-40: #cbb6fa;
+$brand-colors-electric-purple-60: #b191f7;
+$brand-colors-electric-purple-80: #976df5;
+$brand-colors-electric-purple-100: #7d49f3;
+$brand-colors-brand-lime-20: #f5ffcc;
+$brand-colors-brand-lime-40: #ebff99;
+$brand-colors-brand-lime-60: #e1ff66;
+$brand-colors-brand-lime-80: #d7ff32;
+$brand-colors-brand-lime-100: #cdff00;
+$brand-colors-sand-60: #fff5e7;
+$brand-colors-sand-80: #fff2df;
+$brand-colors-sand-100: #ffefd7;
+$brand-colors-sky-blue-20: #f0f8ff;
+$brand-colors-sky-blue-40: #e1f2ff;
+$brand-colors-sky-blue-60: #d2ebff;
+$brand-colors-sky-blue-80: #c3e5ff;
+$brand-colors-sky-blue-100: #abddff;
+$brand-colors-dark-pine-20: #ccdddd;
+$brand-colors-dark-pine-40: #99bbbb;
+$brand-colors-dark-pine-60: #669999;
+$brand-colors-dark-pine-80: #327676;
+$brand-colors-dark-pine-100: #005655;
+$brand-colors-white-100: #ffffff;
+$brand-colors-black-20: #cccccc;
+$brand-colors-black-40: #999999;
+$brand-colors-black-60: #666666;
+$brand-colors-black-80: #323232;
+$brand-colors-black-100: #000000;
 $breakpoints-xx-small: only screen and (max-width: 360px); // Targets devices between 0-360px
 $breakpoints-x-small: only screen and (max-width: 575px); // Targets devices between 0-575px
 $breakpoints-small: only screen and (min-width: 576px); // Targets devices between 576px and up
@@ -9,154 +38,153 @@ $breakpoints-medium: only screen and (min-width: 768px); // Targets portrait tab
 $breakpoints-large: only screen and (min-width: 992px); // Targets landscape tablets from 992px and up
 $breakpoints-x-large: only screen and (min-width: 1025px); // Targets desktop devices from 1025px and up
 $breakpoints-xx-large: only screen and (min-width: 1220px); // Targets desktop devices from 1220px and up
-$color-black-base: #1e2025; // The a11y rating of white on top of this color: AAA
-$color-black-black: #000000; // The a11y rating of white on top of this color: AAA
-$color-white-base: #fcfcfc; // This is the standard background color.
+$color-black-base: #1c1917;
+$color-black-black: #000000;
+$color-white-base: #fcfcfc;
 $color-white-white: #ffffff;
-$color-transparent-base: rgba(0, 0, 0, 0); // This is a 100% transparent color.
-$color-hotorchid-base: #ef6cce;
-$color-gray-10: #f5f7fa; // The a11y rating of black on top of this color: AAA
-$color-gray-20: #ebeff5; // The a11y rating of black on top of this color: AAA
-$color-gray-30: #dee3ed; // The a11y rating of black on top of this color: AAA
-$color-gray-40: #c8d0e0; // The a11y rating of black on top of this color: AAA
-$color-gray-50: #aeb9cb; // The a11y rating of black on top of this color: AAA
-$color-gray-60: #8d98aa; // The a11y rating of black on top of this color: AA
-$color-gray-70: #707a89; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA
-$color-gray-80: #59616e; // The a11y rating of white on top of this color: AA
-$color-gray-90: #444b55; // The a11y rating of white on top of this color: AAA
-$color-gray-100: #343941; // The a11y rating of white on top of this color: AAA
-$color-gray-base: #8d98aa;
-$color-red-10: #faf0f0; // The a11y rating of black on top of this color: AAA
-$color-red-20: #fad6d6; // The a11y rating of black on top of this color: AAA
-$color-red-30: #fab7b7; // The a11y rating of black on top of this color: AAA
-$color-red-40: #fa8e8e; // The a11y rating of black on top of this color: AAA
-$color-red-50: #f55151; // The a11y rating of black on top of this color: AA
-$color-red-60: #de1b1b; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-red-70: #ba0d0d; // The a11y rating of white on top of this color: AA
-$color-red-80: #900e0e; // The a11y rating of white on top of this color: AAA
-$color-red-90: #661414; // The a11y rating of white on top of this color: AAA
-$color-red-100: #451717; // The a11y rating of white on top of this color: AAA
-$color-red-base: #de1b1b;
-$color-green-10: #e0faeb; // The a11y rating of black on top of this color: AAA
-$color-green-20: #abedc5; // The a11y rating of black on top of this color: AAA
-$color-green-30: #7bdba1; // The a11y rating of black on top of this color: AAA
-$color-green-40: #56c281; // The a11y rating of black on top of this color: AAA
-$color-green-50: #3ba064; // The a11y rating of black on top of this color: AA
-$color-green-60: #2a844e; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-green-70: #20693e; // The a11y rating of white on top of this color: AA
-$color-green-80: #1a5130; // The a11y rating of white on top of this color: AAA
-$color-green-90: #153d25; // The a11y rating of white on top of this color: AAA
-$color-green-100: #112c1c; // The a11y rating of white on top of this color: AAA
-$color-green-base: #2a844e;
-$color-blue-10: #eef4fc; // The a11y rating of black on top of this color: AAA
-$color-blue-20: #cfe0fc; // The a11y rating of black on top of this color: AAA
-$color-blue-30: #abcafc; // The a11y rating of black on top of this color: AAA
-$color-blue-40: #85b2fa; // The a11y rating of black on top of this color: AAA
-$color-blue-50: #5691f0; // The a11y rating of black on top of this color: AA
-$color-blue-60: #3071d9; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-blue-70: #1d5bbf; // The a11y rating of white on top of this color: AA
-$color-blue-80: #114497; // The a11y rating of white on top of this color: AAA
-$color-blue-90: #103570; // The a11y rating of white on top of this color: AAA
-$color-blue-100: #15243c; // The a11y rating of white on top of this color: AAA
-$color-blue-base: #3071d9;
-$color-bronze-10: #fcf3e8; // The a11y rating of black on top of this color: AAA
-$color-bronze-20: #fad7ae; // The a11y rating of black on top of this color: AAA
-$color-bronze-30: #f5bb75; // The a11y rating of black on top of this color: AAA
-$color-bronze-40: #e99c3f; // The a11y rating of black on top of this color: AAA
-$color-bronze-50: #d07a11; // The a11y rating of black on top of this color: AA
-$color-bronze-60: #ad5f00; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-bronze-70: #8c4e03; // The a11y rating of white on top of this color: AA
-$color-bronze-80: #693d07; // The a11y rating of white on top of this color: AAA
-$color-bronze-90: #4c2f0b; // The a11y rating of white on top of this color: AAA
-$color-bronze-100: #32200c; // The a11y rating of white on top of this color: AAA
-$color-bronze-base: #ad5f00;
-$color-purple-10: #f5f0fa; // The a11y rating of black on top of this color: AAA
-$color-purple-20: #ebdbfa; // The a11y rating of black on top of this color: AAA
-$color-purple-30: #dabbf7; // The a11y rating of black on top of this color: AAA
-$color-purple-40: #c79cf2; // The a11y rating of black on top of this color: AAA
-$color-purple-50: #ad73e8; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-purple-60: #9657d6; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-purple-70: #7d3cbe; // The a11y rating of white on top of this color: AA
-$color-purple-80: #632b9c; // The a11y rating of white on top of this color: AAA
-$color-purple-90: #4a2173; // The a11y rating of white on top of this color: AAA
-$color-purple-100: #381d54; // The a11y rating of white on top of this color: AAA
-$color-purple-base: #9657d6;
-$color-magenta-10: #faf0f4; // The a11y rating of black on top of this color: AAA
-$color-magenta-20: #fad6e5; // The a11y rating of black on top of this color: AAA
-$color-magenta-30: #fab2d0; // The a11y rating of black on top of this color: AAA
-$color-magenta-40: #f78db9; // The a11y rating of black on top of this color: AAA
-$color-magenta-50: #ed5494; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-magenta-60: #d6246e; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-magenta-70: #af1254; // The a11y rating of white on top of this color: AA
-$color-magenta-80: #8c1245; // The a11y rating of white on top of this color: AAA
-$color-magenta-90: #601534; // The a11y rating of white on top of this color: AAA
-$color-magenta-100: #421527; // The a11y rating of white on top of this color: AAA
-$color-magenta-base: #d6246e;
-$color-indigo-10: #f3f3fc; // The a11y rating of black on top of this color: AAA
-$color-indigo-20: #dedefc; // The a11y rating of black on top of this color: AAA
-$color-indigo-30: #c0c0fc; // The a11y rating of black on top of this color: AAA
-$color-indigo-40: #a8a8fa; // The a11y rating of black on top of this color: AAA
-$color-indigo-50: #8787f2; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-indigo-60: #6565e6; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-indigo-70: #4d4dd1; // The a11y rating of white on top of this color: AA
-$color-indigo-80: #3737b3; // The a11y rating of white on top of this color: AAA
-$color-indigo-90: #28288a; // The a11y rating of white on top of this color: AAA
-$color-indigo-100: #202056; // The a11y rating of white on top of this color: AAA
-$color-indigo-base: #6565e6;
-$color-sky-10: #eaf5fa; // The a11y rating of black on top of this color: AAA
-$color-sky-20: #bde6fa; // The a11y rating of black on top of this color: AAA
-$color-sky-30: #8dd4f7; // The a11y rating of black on top of this color: AAA
-$color-sky-40: #54baed; // The a11y rating of black on top of this color: AAA
-$color-sky-50: #229bd8; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-sky-60: #0c7ab0; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-sky-70: #066493; // The a11y rating of white on top of this color: AA.
-$color-sky-80: #064c6f; // The a11y rating of white on top of this color: AAA
-$color-sky-90: #093953; // The a11y rating of white on top of this color: AAA
-$color-sky-100: #0c2837; // The a11y rating of white on top of this color: AAA
-$color-sky-base: #0c7ab0;
-$color-teal-10: #e4f7f6; // The a11y rating of black on top of this color: AAA
-$color-teal-20: #a6ede9; // The a11y rating of black on top of this color: AAA
-$color-teal-30: #6dd9d2; // The a11y rating of black on top of this color: AAA
-$color-teal-40: #45bfb7; // The a11y rating of black on top of this color: AAA
-$color-teal-50: #289f97; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-teal-60: #17827b; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-teal-70: #116963; // The a11y rating of white on top of this color: AA
-$color-teal-80: #0d544f; // The a11y rating of white on top of this color: AAA
-$color-teal-90: #0b3c39; // The a11y rating of white on top of this color: AAA
-$color-teal-100: #092a28; // The a11y rating of white on top of this color: AAA
-$color-teal-base: #17827b;
-$color-slate-10: #edf4f7; // The a11y rating of black on top of this color: AAA
-$color-slate-20: #cce3f5; // The a11y rating of black on top of this color: AAA
-$color-slate-30: #a8ceeb; // The a11y rating of black on top of this color: AAA
-$color-slate-40: #84b7db; // The a11y rating of black on top of this color: AAA
-$color-slate-50: #5c94bc; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-slate-60: #487a9d; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-slate-70: #376281; // The a11y rating of white on top of this color: AA
-$color-slate-80: #2c4d63; // The a11y rating of white on top of this color: AAA
-$color-slate-90: #243947; // The a11y rating of white on top of this color: AAA
-$color-slate-100: #1d2830; // The a11y rating of white on top of this color: AAA
-$color-slate-base: #487a9d;
-$color-dusk-10: #f4f2f7; // The a11y rating of black on top of this color: AAA
-$color-dusk-20: #e5def7; // The a11y rating of black on top of this color: AAA
-$color-dusk-30: #cec1f0; // The a11y rating of black on top of this color: AAA
-$color-dusk-40: #b5a6e3; // The a11y rating of black on top of this color: AAA
-$color-dusk-50: #9987cf; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
-$color-dusk-60: #7866b2; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
-$color-dusk-70: #645397; // The a11y rating of white on top of this color: AA
-$color-dusk-80: #4e4077; // The a11y rating of white on top of this color: AAA
-$color-dusk-90: #3a3154; // The a11y rating of white on top of this color: AAA
-$color-dusk-100: #292537; // The a11y rating of white on top of this color: AAA
-$color-dusk-base: #7866b2;
+$color-transparent-base: rgba(0, 0, 0, 0);
+$color-hotorchid-base: #ec4899;
+$color-gray-10: #f9fafb;
+$color-gray-20: #f3f4f6;
+$color-gray-30: #e5e7eb;
+$color-gray-40: #d1d5db;
+$color-gray-50: #9ca3af;
+$color-gray-60: #6b7280;
+$color-gray-70: #4b5563;
+$color-gray-80: #374151;
+$color-gray-90: #1f2937;
+$color-gray-100: #111827;
+$color-gray-base: #6b7280;
+$color-red-10: #fef2f2;
+$color-red-20: #fee2e2;
+$color-red-30: #fecaca;
+$color-red-40: #fca5a5;
+$color-red-50: #f87171;
+$color-red-60: #ef4444;
+$color-red-70: #dc2626;
+$color-red-80: #b91c1c;
+$color-red-90: #991b1b;
+$color-red-100: #7f1d1d;
+$color-red-base: #ef4444;
+$color-green-10: #f0fdf4;
+$color-green-20: #dcfce7;
+$color-green-30: #bbf7d0;
+$color-green-40: #86efac;
+$color-green-50: #4ade80;
+$color-green-60: #22c55e;
+$color-green-70: #16a34a;
+$color-green-80: #15803d;
+$color-green-90: #166534;
+$color-green-100: #14532d;
+$color-green-base: #22c55e;
+$color-blue-10: #eff6ff;
+$color-blue-20: #dbeafe;
+$color-blue-30: #bfdbfe;
+$color-blue-40: #93c5fd;
+$color-blue-50: #60a5fa;
+$color-blue-60: #3b82f6;
+$color-blue-70: #2563eb;
+$color-blue-80: #1d4ed8;
+$color-blue-90: #1e40af;
+$color-blue-100: #1e3a8a;
+$color-blue-base: #3b82f6;
+$color-bronze-10: #fffbeb;
+$color-bronze-20: #fef3c7;
+$color-bronze-30: #fde68a;
+$color-bronze-40: #fcd34d;
+$color-bronze-50: #fbbf24;
+$color-bronze-60: #f59e0b;
+$color-bronze-70: #d97706;
+$color-bronze-80: #b45309;
+$color-bronze-90: #92400e;
+$color-bronze-100: #78350f;
+$color-bronze-base: #f59e0b;
+$color-purple-10: #faf5ff;
+$color-purple-20: #f3e8ff;
+$color-purple-30: #e9d5ff;
+$color-purple-40: #d8b4fe;
+$color-purple-50: #c084fc;
+$color-purple-60: #a855f7;
+$color-purple-70: #9333ea;
+$color-purple-80: #7e22ce;
+$color-purple-90: #6b21a8;
+$color-purple-100: #581c87;
+$color-purple-base: #a855f7;
+$color-magenta-10: #fdf2f8;
+$color-magenta-20: #fce7f3;
+$color-magenta-30: #fbcfe8;
+$color-magenta-40: #f9a8d4;
+$color-magenta-50: #f472b6;
+$color-magenta-60: #ec4899;
+$color-magenta-70: #db2777;
+$color-magenta-80: #be185d;
+$color-magenta-90: #9d174d;
+$color-magenta-100: #831843;
+$color-magenta-base: #ec4899;
+$color-indigo-10: #eef2ff;
+$color-indigo-20: #e0e7ff;
+$color-indigo-30: #c7d2fe;
+$color-indigo-40: #a5b4fc;
+$color-indigo-50: #818cf8;
+$color-indigo-60: #6366f1;
+$color-indigo-70: #4f46e5;
+$color-indigo-80: #4338ca;
+$color-indigo-90: #3730a3;
+$color-indigo-100: #312e81;
+$color-indigo-base: #6366f1;
+$color-sky-10: #f0f9ff;
+$color-sky-20: #e0f2fe;
+$color-sky-30: #bae6fd;
+$color-sky-40: #7dd3fc;
+$color-sky-50: #38bdf8;
+$color-sky-60: #0ea5e9;
+$color-sky-70: #0284c7;
+$color-sky-80: #0369a1;
+$color-sky-90: #075985;
+$color-sky-100: #0c4a6e;
+$color-sky-base: #0ea5e9;
+$color-teal-10: #f0fdfa;
+$color-teal-20: #ccfbf1;
+$color-teal-30: #99f6e4;
+$color-teal-40: #5eead4;
+$color-teal-50: #2dd4bf;
+$color-teal-60: #14b8a6;
+$color-teal-70: #0d9488;
+$color-teal-80: #0f766e;
+$color-teal-90: #115e59;
+$color-teal-100: #134e4a;
+$color-teal-base: #14b8a6;
+$color-slate-10: #f8fafc;
+$color-slate-20: #f1f5f9;
+$color-slate-30: #e2e8f0;
+$color-slate-40: #cbd5e1;
+$color-slate-50: #94a3b8;
+$color-slate-60: #64748b;
+$color-slate-70: #475569;
+$color-slate-80: #334155;
+$color-slate-90: #1e293b;
+$color-slate-100: #0f172a;
+$color-slate-base: #64748b;
+$color-dusk-10: #f5f3ff;
+$color-dusk-20: #ede9fe;
+$color-dusk-30: #ddd6fe;
+$color-dusk-40: #c4b5fd;
+$color-dusk-50: #a78bfa;
+$color-dusk-60: #8b5cf6;
+$color-dusk-70: #7c3aed;
+$color-dusk-80: #6d28d9;
+$color-dusk-90: #5b21b6;
+$color-dusk-100: #4c1d95;
+$color-dusk-base: #8b5cf6;
 $elevation-x-small: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2);
 $elevation-small: 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.18), 0px 1px 1px rgba(0, 0, 0, 0.2);
 $elevation-medium: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.18), 0px 8px 8px rgba(0, 0, 0, 0.16);
 $elevation-large: 0px 16px 16px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 8px 8px rgba(0, 0, 0, 0.12);
 $elevation-x-large: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 16px 16px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 8px 8px rgba(0, 0, 0, 0.12);
 $font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-$font-family-sans-serif: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family-sans-serif: Figtree, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 $font-family-monospace: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 $font-family-serif: Georgia, Times, Times New Roman, serif;
-$font-family-raleway: Raleway, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 $font-size-x-small: 0.75rem;
 $font-size-small: 0.875rem;
 $font-size-medium: 1rem; // Approximately 16px. This is the base size for all fonts on all platforms.
@@ -208,6 +236,228 @@ $spacing-x-large: 32px;
 $spacing-xx-large: 40px;
 $spacing-xxx-large: 48px;
 $spacing-xxxx-large: 64px;
+$tailwind-colors-white: #ffffff;
+$tailwind-colors-black: #000000;
+$tailwind-colors-slate-50: #f8fafc;
+$tailwind-colors-slate-100: #f1f5f9;
+$tailwind-colors-slate-200: #e2e8f0;
+$tailwind-colors-slate-300: #cbd5e1;
+$tailwind-colors-slate-400: #94a3b8;
+$tailwind-colors-slate-500: #64748b;
+$tailwind-colors-slate-600: #475569;
+$tailwind-colors-slate-700: #334155;
+$tailwind-colors-slate-800: #1e293b;
+$tailwind-colors-slate-900: #0f172a;
+$tailwind-colors-gray-50: #f9fafb;
+$tailwind-colors-gray-100: #f3f4f6;
+$tailwind-colors-gray-200: #e5e7eb;
+$tailwind-colors-gray-300: #d1d5db;
+$tailwind-colors-gray-400: #9ca3af;
+$tailwind-colors-gray-500: #6b7280;
+$tailwind-colors-gray-600: #4b5563;
+$tailwind-colors-gray-700: #374151;
+$tailwind-colors-gray-800: #1f2937;
+$tailwind-colors-gray-900: #111827;
+$tailwind-colors-zinc-50: #fafafa;
+$tailwind-colors-zinc-100: #f4f4f5;
+$tailwind-colors-zinc-200: #e4e4e7;
+$tailwind-colors-zinc-300: #d4d4d8;
+$tailwind-colors-zinc-400: #a1a1aa;
+$tailwind-colors-zinc-500: #71717a;
+$tailwind-colors-zinc-600: #52525b;
+$tailwind-colors-zinc-700: #3f3f46;
+$tailwind-colors-zinc-800: #27272a;
+$tailwind-colors-zinc-900: #18181b;
+$tailwind-colors-neutral-50: #fafafa;
+$tailwind-colors-neutral-100: #f5f5f5;
+$tailwind-colors-neutral-200: #e5e5e5;
+$tailwind-colors-neutral-300: #d4d4d4;
+$tailwind-colors-neutral-400: #a3a3a3;
+$tailwind-colors-neutral-500: #737373;
+$tailwind-colors-neutral-600: #525252;
+$tailwind-colors-neutral-700: #404040;
+$tailwind-colors-neutral-800: #262626;
+$tailwind-colors-neutral-900: #171717;
+$tailwind-colors-stone-50: #fafaf9;
+$tailwind-colors-stone-100: #f5f5f4;
+$tailwind-colors-stone-200: #e7e5e4;
+$tailwind-colors-stone-300: #d6d3d1;
+$tailwind-colors-stone-400: #a8a29e;
+$tailwind-colors-stone-500: #78716c;
+$tailwind-colors-stone-600: #57534e;
+$tailwind-colors-stone-700: #44403c;
+$tailwind-colors-stone-800: #292524;
+$tailwind-colors-stone-900: #1c1917;
+$tailwind-colors-red-50: #fef2f2;
+$tailwind-colors-red-100: #fee2e2;
+$tailwind-colors-red-200: #fecaca;
+$tailwind-colors-red-300: #fca5a5;
+$tailwind-colors-red-400: #f87171;
+$tailwind-colors-red-500: #ef4444;
+$tailwind-colors-red-600: #dc2626;
+$tailwind-colors-red-700: #b91c1c;
+$tailwind-colors-red-800: #991b1b;
+$tailwind-colors-red-900: #7f1d1d;
+$tailwind-colors-orange-50: #fff7ed;
+$tailwind-colors-orange-100: #ffedd5;
+$tailwind-colors-orange-200: #fed7aa;
+$tailwind-colors-orange-300: #fdba74;
+$tailwind-colors-orange-400: #fb923c;
+$tailwind-colors-orange-500: #f97316;
+$tailwind-colors-orange-600: #ea580c;
+$tailwind-colors-orange-700: #c2410c;
+$tailwind-colors-orange-800: #9a3412;
+$tailwind-colors-orange-900: #7c2d12;
+$tailwind-colors-amber-50: #fffbeb;
+$tailwind-colors-amber-100: #fef3c7;
+$tailwind-colors-amber-200: #fde68a;
+$tailwind-colors-amber-300: #fcd34d;
+$tailwind-colors-amber-400: #fbbf24;
+$tailwind-colors-amber-500: #f59e0b;
+$tailwind-colors-amber-600: #d97706;
+$tailwind-colors-amber-700: #b45309;
+$tailwind-colors-amber-800: #92400e;
+$tailwind-colors-amber-900: #78350f;
+$tailwind-colors-yellow-50: #fefce8;
+$tailwind-colors-yellow-100: #fef9c3;
+$tailwind-colors-yellow-200: #fef08a;
+$tailwind-colors-yellow-300: #fde047;
+$tailwind-colors-yellow-400: #facc15;
+$tailwind-colors-yellow-500: #eab308;
+$tailwind-colors-yellow-600: #ca8a04;
+$tailwind-colors-yellow-700: #a16207;
+$tailwind-colors-yellow-800: #854d0e;
+$tailwind-colors-yellow-900: #713f12;
+$tailwind-colors-lime-50: #f7fee7;
+$tailwind-colors-lime-100: #ecfccb;
+$tailwind-colors-lime-200: #d9f99d;
+$tailwind-colors-lime-300: #bef264;
+$tailwind-colors-lime-400: #a3e635;
+$tailwind-colors-lime-500: #84cc16;
+$tailwind-colors-lime-600: #65a30d;
+$tailwind-colors-lime-700: #4d7c0f;
+$tailwind-colors-lime-800: #3f6212;
+$tailwind-colors-lime-900: #365314;
+$tailwind-colors-green-50: #f0fdf4;
+$tailwind-colors-green-100: #dcfce7;
+$tailwind-colors-green-200: #bbf7d0;
+$tailwind-colors-green-300: #86efac;
+$tailwind-colors-green-400: #4ade80;
+$tailwind-colors-green-500: #22c55e;
+$tailwind-colors-green-600: #16a34a;
+$tailwind-colors-green-700: #15803d;
+$tailwind-colors-green-800: #166534;
+$tailwind-colors-green-900: #14532d;
+$tailwind-colors-emerald-50: #ecfdf5;
+$tailwind-colors-emerald-100: #d1fae5;
+$tailwind-colors-emerald-200: #a7f3d0;
+$tailwind-colors-emerald-300: #6ee7b7;
+$tailwind-colors-emerald-400: #34d399;
+$tailwind-colors-emerald-500: #10b981;
+$tailwind-colors-emerald-600: #059669;
+$tailwind-colors-emerald-700: #047857;
+$tailwind-colors-emerald-800: #065f46;
+$tailwind-colors-emerald-900: #064e3b;
+$tailwind-colors-teal-50: #f0fdfa;
+$tailwind-colors-teal-100: #ccfbf1;
+$tailwind-colors-teal-200: #99f6e4;
+$tailwind-colors-teal-300: #5eead4;
+$tailwind-colors-teal-400: #2dd4bf;
+$tailwind-colors-teal-500: #14b8a6;
+$tailwind-colors-teal-600: #0d9488;
+$tailwind-colors-teal-700: #0f766e;
+$tailwind-colors-teal-800: #115e59;
+$tailwind-colors-teal-900: #134e4a;
+$tailwind-colors-cyan-50: #ecfeff;
+$tailwind-colors-cyan-100: #cffafe;
+$tailwind-colors-cyan-200: #a5f3fc;
+$tailwind-colors-cyan-300: #67e8f9;
+$tailwind-colors-cyan-400: #22d3ee;
+$tailwind-colors-cyan-500: #06b6d4;
+$tailwind-colors-cyan-600: #0891b2;
+$tailwind-colors-cyan-700: #0e7490;
+$tailwind-colors-cyan-800: #155e75;
+$tailwind-colors-cyan-900: #164e63;
+$tailwind-colors-sky-50: #f0f9ff;
+$tailwind-colors-sky-100: #e0f2fe;
+$tailwind-colors-sky-200: #bae6fd;
+$tailwind-colors-sky-300: #7dd3fc;
+$tailwind-colors-sky-400: #38bdf8;
+$tailwind-colors-sky-500: #0ea5e9;
+$tailwind-colors-sky-600: #0284c7;
+$tailwind-colors-sky-700: #0369a1;
+$tailwind-colors-sky-800: #075985;
+$tailwind-colors-sky-900: #0c4a6e;
+$tailwind-colors-blue-50: #eff6ff;
+$tailwind-colors-blue-100: #dbeafe;
+$tailwind-colors-blue-200: #bfdbfe;
+$tailwind-colors-blue-300: #93c5fd;
+$tailwind-colors-blue-400: #60a5fa;
+$tailwind-colors-blue-500: #3b82f6;
+$tailwind-colors-blue-600: #2563eb;
+$tailwind-colors-blue-700: #1d4ed8;
+$tailwind-colors-blue-800: #1e40af;
+$tailwind-colors-blue-900: #1e3a8a;
+$tailwind-colors-indigo-50: #eef2ff;
+$tailwind-colors-indigo-100: #e0e7ff;
+$tailwind-colors-indigo-200: #c7d2fe;
+$tailwind-colors-indigo-300: #a5b4fc;
+$tailwind-colors-indigo-400: #818cf8;
+$tailwind-colors-indigo-500: #6366f1;
+$tailwind-colors-indigo-600: #4f46e5;
+$tailwind-colors-indigo-700: #4338ca;
+$tailwind-colors-indigo-800: #3730a3;
+$tailwind-colors-indigo-900: #312e81;
+$tailwind-colors-violet-50: #f5f3ff;
+$tailwind-colors-violet-100: #ede9fe;
+$tailwind-colors-violet-200: #ddd6fe;
+$tailwind-colors-violet-300: #c4b5fd;
+$tailwind-colors-violet-400: #a78bfa;
+$tailwind-colors-violet-500: #8b5cf6;
+$tailwind-colors-violet-600: #7c3aed;
+$tailwind-colors-violet-700: #6d28d9;
+$tailwind-colors-violet-800: #5b21b6;
+$tailwind-colors-violet-900: #4c1d95;
+$tailwind-colors-purple-50: #faf5ff;
+$tailwind-colors-purple-100: #f3e8ff;
+$tailwind-colors-purple-200: #e9d5ff;
+$tailwind-colors-purple-300: #d8b4fe;
+$tailwind-colors-purple-400: #c084fc;
+$tailwind-colors-purple-500: #a855f7;
+$tailwind-colors-purple-600: #9333ea;
+$tailwind-colors-purple-700: #7e22ce;
+$tailwind-colors-purple-800: #6b21a8;
+$tailwind-colors-purple-900: #581c87;
+$tailwind-colors-fuchsia-50: #fdf4ff;
+$tailwind-colors-fuchsia-100: #fae8ff;
+$tailwind-colors-fuchsia-200: #f5d0fe;
+$tailwind-colors-fuchsia-300: #f0abfc;
+$tailwind-colors-fuchsia-400: #e879f9;
+$tailwind-colors-fuchsia-500: #d946ef;
+$tailwind-colors-fuchsia-600: #c026d3;
+$tailwind-colors-fuchsia-700: #a21caf;
+$tailwind-colors-fuchsia-800: #86198f;
+$tailwind-colors-fuchsia-900: #701a75;
+$tailwind-colors-pink-50: #fdf2f8;
+$tailwind-colors-pink-100: #fce7f3;
+$tailwind-colors-pink-200: #fbcfe8;
+$tailwind-colors-pink-300: #f9a8d4;
+$tailwind-colors-pink-400: #f472b6;
+$tailwind-colors-pink-500: #ec4899;
+$tailwind-colors-pink-600: #db2777;
+$tailwind-colors-pink-700: #be185d;
+$tailwind-colors-pink-800: #9d174d;
+$tailwind-colors-pink-900: #831843;
+$tailwind-colors-rose-50: #fff1f2;
+$tailwind-colors-rose-100: #ffe4e6;
+$tailwind-colors-rose-200: #fecdd3;
+$tailwind-colors-rose-300: #fda4af;
+$tailwind-colors-rose-400: #fb7185;
+$tailwind-colors-rose-500: #f43f5e;
+$tailwind-colors-rose-600: #e11d48;
+$tailwind-colors-rose-700: #be123c;
+$tailwind-colors-rose-800: #9f1239;
+$tailwind-colors-rose-900: #881337;
 $transition-quickly: 300ms ease;
 $transition-slowly: 600ms ease;
 $z-index-deep: -999999;

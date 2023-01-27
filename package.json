@@ -1,6 +1,6 @@
 {
   "name": "@mapsindoors/midt",
-  "version": "17.0.0",
+  "version": "18.0.0",
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
   "license": "MIT",
@@ -17,8 +17,8 @@
   "sass": "mixins/_index.scss",
   "style": "midt.css",
   "scripts": {
-    "build": "npm run clean && node_modules/.bin/style-dictionary build && npm run sass",
-    "clean": "rm -rf build",
+    "build": "npm run clean && style-dictionary build && npm run sass",
+    "clean": "style-dictionary clean",
     "sass-watch": "sass --watch midt.scss:midt.css --no-source-map",
     "sass": "sass midt.scss:midt.css --no-source-map",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
-    "np": "^7.6.1",
-    "sass": "^1.52.0",
-    "style-dictionary": "^3.7.0"
+    "np": "^7.6.3",
+    "sass": "^1.57.1",
+    "style-dictionary": "^3.7.2"
   }
 }

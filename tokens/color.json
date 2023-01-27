@@ -1,574 +1,449 @@
 {
   "color": {
-    "comment": "These colors are based upon the work done by CA Technologies with Mineral UI: https://github.com/mineral-ui/mineral-ui",
     "black": {
       "base": {
-        "value": "hsl(223, 11%, 13%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.stone.900.value}"
       },
       "black": {
-        "value": "hsl(0, 0%, 0%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.black.value}"
       }
     },
     "white": {
       "base": {
-        "value": "hsl(0, 0%, 99%)",
-        "comment": "This is the standard background color."
+        "value": "hsl(0, 0%, 99%)"
       },
       "white": {
-        "value": "hsl(0, 0%, 100%)"
+        "value": "{tailwind-colors.white.value}"
       }
     },
     "transparent": {
       "base": {
-        "value": "hsla(0, 0, 0, 0%)",
-        "comment": "This is a 100% transparent color."
+        "value": "hsla(0, 0, 0, 0%)"
       }
     },
     "hotorchid": {
       "base": {
-        "value": "#EF6CCE"
+        "value": "{tailwind-colors.pink.500.value}"
       }
     },
     "gray": {
       "base": {
-        "value": "{color.gray.60.value}"
+        "value": "{tailwind-colors.gray.500.value}"
       },
       "10": {
-        "value": "hsl(216, 33%, 97%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.gray.50.value}"
       },
       "20": {
-        "value": "hsl(216, 33%, 94%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.gray.100.value}"
       },
       "30": {
-        "value": "hsl(218, 31%, 90%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.gray.200.value}"
       },
       "40": {
-        "value": "hsl(218, 28%, 83%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.gray.300.value}"
       },
       "50": {
-        "value": "hsl(217, 22%, 74%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.gray.400.value}"
       },
       "60": {
-        "value": "hsl(217, 15%, 61%)",
-        "comment": "The a11y rating of black on top of this color: AA"
+        "value": "{tailwind-colors.gray.500.value}"
       },
       "70": {
-        "value": "hsl(217, 10%, 49%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA"
+        "value": "{tailwind-colors.gray.600.value}"
       },
       "80": {
-        "value": "hsl(218, 11%, 39%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.gray.700.value}"
       },
       "90": {
-        "value": "hsl(215, 11%, 30%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.gray.800.value}"
       },
       "100": {
-        "value": "hsl(217, 11%, 23%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.gray.900.value}"
       }
     },
     "red": {
       "base": {
-        "value": "{color.red.60.value}"
+        "value": "{tailwind-colors.red.500.value}"
       },
       "10": {
-        "value": "hsl(0, 50%, 96%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.red.50.value}"
       },
       "20": {
-        "value": "hsl(0, 79%, 91%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.red.100.value}"
       },
       "30": {
-        "value": "hsl(0, 87%, 85%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.red.200.value}"
       },
       "40": {
-        "value": "hsl(0, 92%, 77%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.red.300.value}"
       },
       "50": {
-        "value": "hsl(0, 89%, 64%)",
-        "comment": "The a11y rating of black on top of this color: AA"
+        "value": "{tailwind-colors.red.400.value}"
       },
       "60": {
-        "value": "hsl(0, 78%, 49%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large"
+        "value": "{tailwind-colors.red.500.value}"
       },
       "70": {
-        "value": "hsl(0, 87%, 39%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.red.600.value}"
       },
       "80": {
-        "value": "hsl(0, 82%, 31%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.red.700.value}"
       },
       "90": {
-        "value": "hsl(0, 67%, 24%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.red.800.value}"
       },
       "100": {
-        "value": "hsl(0, 50%, 18%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.red.900.value}"
       }
     },
     "green": {
       "base": {
-        "value": "{color.green.60.value}"
+        "value": "{tailwind-colors.green.500.value}"
       },
       "10": {
-        "value": "hsl(144, 71%, 93%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.green.50.value}"
       },
       "20": {
-        "value": "hsl(144, 65%, 80%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.green.100.value}"
       },
       "30": {
-        "value": "hsl(144, 57%, 67%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.green.200.value}"
       },
       "40": {
-        "value": "hsl(144, 47%, 55%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.green.300.value}"
       },
       "50": {
-        "value": "hsl(144, 46%, 43%)",
-        "comment": "The a11y rating of black on top of this color: AA"
+        "value": "{tailwind-colors.green.400.value}"
       },
       "60": {
-        "value": "hsl(144, 52%, 34%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large"
+        "value": "{tailwind-colors.green.500.value}"
       },
       "70": {
-        "value": "hsl(144, 53%, 27%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.green.600.value}"
       },
       "80": {
-        "value": "hsl(144, 52%, 21%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.green.700.value}"
       },
       "90": {
-        "value": "hsl(144, 49%, 16%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.green.800.value}"
       },
       "100": {
-        "value": "hsl(143, 43%, 12%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.green.900.value}"
       }
     },
     "blue": {
       "base": {
-        "value": "{color.blue.60.value}"
+        "value": "{tailwind-colors.blue.500.value}"
       },
       "10": {
-        "value": "hsl(215, 67%, 96%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.blue.50.value}"
       },
       "20": {
-        "value": "hsl(217, 88%, 90%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.blue.100.value}"
       },
       "30": {
-        "value": "hsl(217, 93%, 83%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.blue.200.value}"
       },
       "40": {
-        "value": "hsl(217, 92%, 75%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.blue.300.value}"
       },
       "50": {
-        "value": "hsl(217, 84%, 64%)",
-        "comment": "The a11y rating of black on top of this color: AA"
+        "value": "{tailwind-colors.blue.400.value}"
       },
       "60": {
-        "value": "hsl(217, 69%, 52%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large"
+        "value": "{tailwind-colors.blue.500.value}"
       },
       "70": {
-        "value": "hsl(217, 74%, 43%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.blue.600.value}"
       },
       "80": {
-        "value": "hsl(217, 80%, 33%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.blue.700.value}"
       },
       "90": {
-        "value": "hsl(217, 75%, 25%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.blue.800.value}"
       },
       "100": {
-        "value": "hsl(218, 48%, 16%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.blue.900.value}"
       }
     },
     "bronze": {
       "base": {
-        "value": "{color.bronze.60.value}"
+        "value": "{tailwind-colors.amber.500.value}"
       },
       "10": {
-        "value": "hsl(33, 79%, 95%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.amber.50.value}"
       },
       "20": {
-        "value": "hsl(33, 88%, 83%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.amber.100.value}"
       },
       "30": {
-        "value": "hsl(33, 86%, 71%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.amber.200.value}"
       },
       "40": {
-        "value": "hsl(33, 79%, 58%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.amber.300.value}"
       },
       "50": {
-        "value": "hsl(33, 85%, 44%)",
-        "comment": "The a11y rating of black on top of this color: AA"
+        "value": "{tailwind-colors.amber.400.value}"
       },
       "60": {
-        "value": "hsl(33, 100%, 34%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large"
+        "value": "{tailwind-colors.amber.500.value}"
       },
       "70": {
-        "value": "hsl(33, 96%, 28%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.amber.600.value}"
       },
       "80": {
-        "value": "hsl(33, 87%, 22%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.amber.700.value}"
       },
       "90": {
-        "value": "hsl(33, 75%, 17%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.amber.800.value}"
       },
       "100": {
-        "value": "hsl(32, 62%, 12%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.amber.900.value}"
       }
     },
     "purple": {
       "base": {
-        "value": "{color.purple.60.value}"
+        "value": "{tailwind-colors.purple.500.value}"
       },
       "10": {
-        "value": "hsl(270, 50%, 96%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.purple.50.value}"
       },
       "20": {
-        "value": "hsl(271, 77%, 92%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.purple.100.value}"
       },
       "30": {
-        "value": "hsl(271, 79%, 85%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.purple.200.value}"
       },
       "40": {
-        "value": "hsl(270, 77%, 78%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.purple.300.value}"
       },
       "50": {
-        "value": "hsl(270, 72%, 68%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.purple.400.value}"
       },
       "60": {
-        "value": "hsl(270, 61%, 59%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.purple.500.value}"
       },
       "70": {
-        "value": "hsl(270, 52%, 49%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.purple.600.value}"
       },
       "80": {
-        "value": "hsl(270, 57%, 39%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.purple.700.value}"
       },
       "90": {
-        "value": "hsl(270, 56%, 29%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.purple.800.value}"
       },
       "100": {
-        "value": "hsl(270, 49%, 22%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.purple.900.value}"
       }
     },
     "magenta": {
       "base": {
-        "value": "{color.magenta.60.value}"
+        "value": "{tailwind-colors.pink.500.value}"
       },
       "10": {
-        "value": "hsl(336, 50%, 96%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.pink.50.value}"
       },
       "20": {
-        "value": "hsl(335, 79%, 91%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.pink.100.value}"
       },
       "30": {
-        "value": "hsl(335, 88%, 84%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.pink.200.value}"
       },
       "40": {
-        "value": "hsl(335, 87%, 76%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.pink.300.value}"
       },
       "50": {
-        "value": "hsl(335, 81%, 63%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.pink.400.value}"
       },
       "60": {
-        "value": "hsl(335, 71%, 49%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.pink.500.value}"
       },
       "70": {
-        "value": "hsl(335, 81%, 38%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.pink.600.value}"
       },
       "80": {
-        "value": "hsl(335, 77%, 31%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.pink.700.value}"
       },
       "90": {
-        "value": "hsl(335, 64%, 23%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.pink.800.value}"
       },
       "100": {
-        "value": "hsl(336, 52%, 17%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.pink.900.value}"
       }
     },
     "indigo": {
       "base": {
-        "value": "{color.indigo.60.value}"
+        "value": "{tailwind-colors.indigo.500.value}"
       },
       "10": {
-        "value": "hsl(240, 63%, 97%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.50.value}"
       },
       "20": {
-        "value": "hsl(240, 84%, 93%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.100.value}"
       },
       "30": {
-        "value": "hsl(240, 91%, 87%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.200.value}"
       },
       "40": {
-        "value": "hsl(240, 89%, 82%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.300.value}"
       },
       "50": {
-        "value": "hsl(240, 81%, 74%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.indigo.400.value}"
       },
       "60": {
-        "value": "hsl(240, 72%, 65%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.indigo.500.value}"
       },
       "70": {
-        "value": "hsl(240, 59%, 56%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.indigo.600.value}"
       },
       "80": {
-        "value": "hsl(240, 53%, 46%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.700.value}"
       },
       "90": {
-        "value": "hsl(240, 55%, 35%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.800.value}"
       },
       "100": {
-        "value": "hsl(240, 46%, 23%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.indigo.900.value}"
       }
     },
     "sky": {
       "base": {
-        "value": "{color.sky.60.value}"
+        "value": "{tailwind-colors.sky.500.value}"
       },
       "10": {
-        "value": "hsl(200, 64%, 95%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.sky.50.value}"
       },
       "20": {
-        "value": "hsl(200, 86%, 86%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.sky.100.value}"
       },
       "30": {
-        "value": "hsl(200, 87%, 76%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.sky.200.value}"
       },
       "40": {
-        "value": "hsl(200, 81%, 63%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.sky.300.value}"
       },
       "50": {
-        "value": "hsl(200, 73%, 49%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.sky.400.value}"
       },
       "60": {
-        "value": "hsl(200, 87%, 37%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.sky.500.value}"
       },
       "70": {
-        "value": "hsl(200, 92%, 30%)",
-        "comment": "The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.sky.600.value}"
       },
       "80": {
-        "value": "hsl(200, 90%, 23%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.sky.700.value}"
       },
       "90": {
-        "value": "hsl(201, 80%, 18%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.sky.800.value}"
       },
       "100": {
-        "value": "hsl(200, 65%, 13%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.sky.900.value}"
       }
     },
     "teal": {
       "base": {
-        "value": "{color.teal.60.value}"
+        "value": "{tailwind-colors.teal.500.value}"
       },
       "10": {
-        "value": "hsl(177, 54%, 93%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.teal.50.value}"
       },
       "20": {
-        "value": "hsl(177, 66%, 79%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.teal.100.value}"
       },
       "30": {
-        "value": "hsl(176, 59%, 64%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.teal.200.value}"
       },
       "40": {
-        "value": "hsl(176, 49%, 51%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.teal.300.value}"
       },
       "50": {
-        "value": "hsl(176, 60%, 39%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.teal.400.value}"
       },
       "60": {
-        "value": "hsl(176, 70%, 30%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.teal.500.value}"
       },
       "70": {
-        "value": "hsl(176, 72%, 24%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.teal.600.value}"
       },
       "80": {
-        "value": "hsl(176, 73%, 19%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.teal.700.value}"
       },
       "90": {
-        "value": "hsl(176, 69%, 14%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.teal.800.value}"
       },
       "100": {
-        "value": "hsl(176, 65%, 10%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.teal.900.value}"
       }
     },
     "slate": {
       "base": {
-        "value": "{color.slate.60.value}"
+        "value": "{tailwind-colors.slate.500.value}"
       },
       "10": {
-        "value": "hsl(198, 38%, 95%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.slate.50.value}"
       },
       "20": {
-        "value": "hsl(206, 68%, 88%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.slate.100.value}"
       },
       "30": {
-        "value": "hsl(206, 63%, 79%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.slate.200.value}"
       },
       "40": {
-        "value": "hsl(205, 55%, 69%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.slate.300.value}"
       },
       "50": {
-        "value": "hsl(205, 42%, 55%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.slate.400.value}"
       },
       "60": {
-        "value": "hsl(205, 37%, 45%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.slate.500.value}"
       },
       "70": {
-        "value": "hsl(205, 40%, 36%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.slate.600.value}"
       },
       "80": {
-        "value": "hsl(204, 38%, 28%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.slate.700.value}"
       },
       "90": {
-        "value": "hsl(204, 33%, 21%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.slate.800.value}"
       },
       "100": {
-        "value": "hsl(205, 25%, 15%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.slate.900.value}"
       }
     },
     "dusk": {
       "base": {
-        "value": "{color.dusk.60.value}"
+        "value": "{tailwind-colors.violet.500.value}"
       },
       "10": {
-        "value": "hsl(264, 24%, 96%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.violet.50.value}"
       },
       "20": {
-        "value": "hsl(256, 63%, 92%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.violet.100.value}"
       },
       "30": {
-        "value": "hsl(256, 61%, 85%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.violet.200.value}"
       },
       "40": {
-        "value": "hsl(255, 52%, 77%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
+        "value": "{tailwind-colors.violet.300.value}"
       },
       "50": {
-        "value": "hsl(255, 43%, 67%)",
-        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+        "value": "{tailwind-colors.violet.400.value}"
       },
       "60": {
-        "value": "hsl(254, 33%, 55%)",
-        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+        "value": "{tailwind-colors.violet.500.value}"
       },
       "70": {
-        "value": "hsl(255, 29%, 46%)",
-        "comment": "The a11y rating of white on top of this color: AA"
+        "value": "{tailwind-colors.violet.600.value}"
       },
       "80": {
-        "value": "hsl(255, 30%, 36%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.violet.700.value}"
       },
       "90": {
-        "value": "hsl(255, 26%, 26%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.violet.800.value}"
       },
       "100": {
-        "value": "hsl(253, 20%, 18%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
+        "value": "{tailwind-colors.violet.900.value}"
       }
     }
   }

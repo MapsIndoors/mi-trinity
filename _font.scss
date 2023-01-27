@@ -1,6 +1,6 @@
-@use 'build/scss/variables';
+@use "build/scss/variables";
 
-@mixin family($family: 'sans-serif') {
+@mixin family($family: "sans-serif") {
   @if $family == sans-serif {
     font-family: variables.$font-family-sans-serif;
   } @else if $family == system {
@@ -9,12 +9,10 @@
     font-family: variables.$font-family-monospace;
   } @else if $family == serif {
     font-family: variables.$font-family-serif;
-  } @else if $family == raleway {
-    font-family: variables.$font-family-raleway;
   }
 }
 
-@mixin size($size: 'medium') {
+@mixin size($size: "medium") {
   @if $size == medium {
     font-size: variables.$font-size-medium;
   } @else if $size == x-small {
@@ -34,7 +32,7 @@
   }
 }
 
-@mixin weight($weight: 'medium') {
+@mixin weight($weight: "medium") {
   @if $weight == medium {
     font-weight: variables.$font-weight-medium;
   } @else if $weight == small {
@@ -48,7 +46,7 @@
   }
 }
 
-@mixin leading($leading: 'x-large') {
+@mixin leading($leading: "x-large") {
   @if $leading == x-large {
     line-height: variables.$font-size-x-large;
   } @else if $leading == x-small {
@@ -68,7 +66,7 @@
   }
 }
 
-@mixin tracking($tracking: 'medium') {
+@mixin tracking($tracking: "medium") {
   @if $tracking == medium {
     letter-spacing: variables.$font-tracking-medium;
   } @else if $tracking == small {
@@ -80,7 +78,7 @@
   }
 }
 
-@mixin measure($measure: 'medium') {
+@mixin measure($measure: "medium") {
   @if $measure == medium {
     max-width: variables.$font-measure-medium;
   } @else if $measure == small {
@@ -90,10 +88,10 @@
   }
 }
 
-@mixin color($color: 'base') {
-  @if $color == 'base' {
+@mixin color($color: "base") {
+  @if $color == "base" {
     color: variables.$color-black-base;
-  } @else if $color == 'inverse' {
+  } @else if $color == "inverse" {
     color: variables.$color-white-base;
   }
 }
