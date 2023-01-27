@@ -1,6 +1,6 @@
-@use 'build/scss/variables';
+@use "build/scss/variables";
 
-@mixin black($background-black: 'base') {
+@mixin black($background-black: "base") {
   @if $background-black == base {
     background-color: variables.$color-black-base;
   } @else if $background-black == black {
@@ -8,7 +8,7 @@
   }
 }
 
-@mixin white($background-white: 'base') {
+@mixin white($background-white: "base") {
   @if $background-white == base {
     background-color: variables.$color-white-base;
   } @else if $background-white == white {
@@ -16,7 +16,7 @@
   }
 }
 
-@mixin gray($background-gray: 'base') {
+@mixin gray($background-gray: "base") {
   @if $background-gray == base {
     background-color: variables.$color-gray-base;
   } @else if $background-gray == 10 {
@@ -42,7 +42,7 @@
   }
 }
 
-@mixin red($background-red: 'base') {
+@mixin red($background-red: "base") {
   @if $background-red == base {
     background-color: variables.$color-red-base;
   } @else if $background-red == 10 {
@@ -68,7 +68,7 @@
   }
 }
 
-@mixin green($background-green: 'base') {
+@mixin green($background-green: "base") {
   @if $background-green == base {
     background-color: variables.$color-green-base;
   } @else if $background-green == 10 {
@@ -94,7 +94,7 @@
   }
 }
 
-@mixin blue($background-blue: 'base') {
+@mixin blue($background-blue: "base") {
   @if $background-blue == base {
     background-color: variables.$color-blue-base;
   } @else if $background-blue == 10 {
@@ -120,7 +120,7 @@
   }
 }
 
-@mixin bronze($background-bronze: 'base') {
+@mixin bronze($background-bronze: "base") {
   @if $background-bronze == base {
     background-color: variables.$color-bronze-base;
   } @else if $background-bronze == 10 {
@@ -146,7 +146,7 @@
   }
 }
 
-@mixin purple($background-purple: 'base') {
+@mixin purple($background-purple: "base") {
   @if $background-purple == base {
     background-color: variables.$color-purple-base;
   } @else if $background-purple == 10 {
@@ -172,7 +172,7 @@
   }
 }
 
-@mixin magenta($background-magenta: 'base') {
+@mixin magenta($background-magenta: "base") {
   @if $background-magenta == base {
     background-color: variables.$color-magenta-base;
   } @else if $background-magenta == 10 {
@@ -198,7 +198,7 @@
   }
 }
 
-@mixin indigo($background-indigo: 'base') {
+@mixin indigo($background-indigo: "base") {
   @if $background-indigo == base {
     background-color: variables.$color-indigo-base;
   } @else if $background-indigo == 10 {
@@ -224,7 +224,7 @@
   }
 }
 
-@mixin sky($background-sky: 'base') {
+@mixin sky($background-sky: "base") {
   @if $background-sky == base {
     background-color: variables.$color-sky-base;
   } @else if $background-sky == 10 {
@@ -250,7 +250,7 @@
   }
 }
 
-@mixin teal($background-teal: 'base') {
+@mixin teal($background-teal: "base") {
   @if $background-teal == base {
     background-color: variables.$color-teal-base;
   } @else if $background-teal == 10 {
@@ -276,7 +276,7 @@
   }
 }
 
-@mixin slate($background-slate: 'base') {
+@mixin slate($background-slate: "base") {
   @if $background-slate == base {
     background-color: variables.$color-slate-base;
   } @else if $background-slate == 10 {
@@ -302,7 +302,7 @@
   }
 }
 
-@mixin dusk($background-dusk: 'base') {
+@mixin dusk($background-dusk: "base") {
   @if $background-dusk == base {
     background-color: variables.$color-dusk-base;
   } @else if $background-dusk == 10 {
@@ -325,5 +325,97 @@
     background-color: variables.$color-dusk-90;
   } @else if $background-dusk == 100 {
     background-color: variables.$color-dusk-100;
+  }
+}
+
+@mixin electric-purple($background-electric-purple: "base") {
+  @if $background-electric-purple == base {
+    background-color: variables.$brand-colors-electric-purple-100;
+  } @else if $background-electric-purple == 20 {
+    background-color: variables.$brand-colors-electric-purple-20;
+  } @else if $background-electric-purple == 40 {
+    background-color: variables.$brand-colors-electric-purple-40;
+  } @else if $background-electric-purple == 60 {
+    background-color: variables.$brand-colors-electric-purple-60;
+  } @else if $background-electric-purple == 80 {
+    background-color: variables.$brand-colors-electric-purple-80;
+  } @else if $background-electric-purple == 100 {
+    background-color: variables.$brand-colors-electric-purple-100;
+  }
+}
+
+@mixin brand-lime($background-brand-lime: "base") {
+  @if $background-brand-lime == base {
+    background-color: variables.$brand-colors-brand-lime-100;
+  } @else if $background-brand-lime == 20 {
+    background-color: variables.$brand-colors-brand-lime-20;
+  } @else if $background-brand-lime == 40 {
+    background-color: variables.$brand-colors-brand-lime-40;
+  } @else if $background-brand-lime == 60 {
+    background-color: variables.$brand-colors-brand-lime-60;
+  } @else if $background-brand-lime == 80 {
+    background-color: variables.$brand-colors-brand-lime-80;
+  } @else if $background-brand-lime == 100 {
+    background-color: variables.$brand-colors-brand-lime-100;
+  }
+}
+
+@mixin sand($background-sand: "base") {
+  @if $background-sand == base {
+    background-color: variables.$brand-colors-sand-100;
+  } @else if $background-sand == 60 {
+    background-color: variables.$brand-colors-sand-60;
+  } @else if $background-sand == 80 {
+    background-color: variables.$brand-colors-sand-80;
+  } @else if $background-sand == 100 {
+    background-color: variables.$brand-colors-sand-100;
+  }
+}
+
+@mixin sky-blue($background-sky-blue: "base") {
+  @if $background-sky-blue == base {
+    background-color: variables.$brand-colors-sky-blue-100;
+  } @else if $background-sky-blue == 20 {
+    background-color: variables.$brand-colors-sky-blue-20;
+  } @else if $background-sky-blue == 40 {
+    background-color: variables.$brand-colors-sky-blue-40;
+  } @else if $background-sky-blue == 60 {
+    background-color: variables.$brand-colors-sky-blue-60;
+  } @else if $background-sky-blue == 80 {
+    background-color: variables.$brand-colors-sky-blue-80;
+  } @else if $background-sky-blue == 100 {
+    background-color: variables.$brand-colors-sky-blue-100;
+  }
+}
+
+@mixin dark-pine($background-dark-pine: "base") {
+  @if $background-dark-pine == base {
+    background-color: variables.$brand-colors-dark-pine-100;
+  } @else if $background-dark-pine == 20 {
+    background-color: variables.$brand-colors-dark-pine-20;
+  } @else if $background-dark-pine == 40 {
+    background-color: variables.$brand-colors-dark-pine-40;
+  } @else if $background-dark-pine == 60 {
+    background-color: variables.$brand-colors-dark-pine-60;
+  } @else if $background-dark-pine == 80 {
+    background-color: variables.$brand-colors-dark-pine-80;
+  } @else if $background-dark-pine == 100 {
+    background-color: variables.$brand-colors-dark-pine-100;
+  }
+}
+
+@mixin dark-pine($background-dark-pine: "base") {
+  @if $background-dark-pine == base {
+    background-color: variables.$brand-colors-dark-pine-100;
+  } @else if $background-dark-pine == 20 {
+    background-color: variables.$brand-colors-dark-pine-20;
+  } @else if $background-dark-pine == 40 {
+    background-color: variables.$brand-colors-dark-pine-40;
+  } @else if $background-dark-pine == 60 {
+    background-color: variables.$brand-colors-dark-pine-60;
+  } @else if $background-dark-pine == 80 {
+    background-color: variables.$brand-colors-dark-pine-80;
+  } @else if $background-dark-pine == 100 {
+    background-color: variables.$brand-colors-dark-pine-100;
   }
 }
