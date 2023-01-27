@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 12:38:05 GMT
+ * Generated on Fri, 27 Jan 2023 12:41:39 GMT
  */
 
-mapsindoors-map {
+.mapsindoors-map {
   --z-index-top: 999999;
   --z-index-popup: 950;
   --z-index-modal: 900;
