@@ -1,6 +1,6 @@
-@use 'build/scss/variables';
+@use "build/scss/variables";
 
-@mixin black($black: 'base') {
+@mixin black($black: "base") {
   @if $black == base {
     color: variables.$color-black-base;
   } @else if $black == black {
@@ -8,7 +8,7 @@
   }
 }
 
-@mixin white($white: 'base') {
+@mixin white($white: "base") {
   @if $white == base {
     color: variables.$color-white-base;
   } @else if $white == white {
@@ -16,19 +16,19 @@
   }
 }
 
-@mixin transparent($transparent: 'base') {
+@mixin transparent($transparent: "base") {
   @if $transparent == base {
     color: variables.$color-transparent-base;
   }
 }
 
-@mixin hotorchid($hotorchid: 'base') {
+@mixin hotorchid($hotorchid: "base") {
   @if $hotorchid == base {
     color: variables.$color-hotorchid-base;
   }
 }
 
-@mixin gray($gray: 'base') {
+@mixin gray($gray: "base") {
   @if $gray == base {
     color: variables.$color-gray-base;
   } @else if $gray == 10 {
@@ -54,7 +54,7 @@
   }
 }
 
-@mixin red($red: 'base') {
+@mixin red($red: "base") {
   @if $red == base {
     color: variables.$color-red-base;
   } @else if $red == 10 {
@@ -80,7 +80,7 @@
   }
 }
 
-@mixin green($green: 'base') {
+@mixin green($green: "base") {
   @if $green == base {
     color: variables.$color-green-base;
   } @else if $green == 10 {
@@ -106,7 +106,7 @@
   }
 }
 
-@mixin blue($blue: 'base') {
+@mixin blue($blue: "base") {
   @if $blue == base {
     color: variables.$color-blue-base;
   } @else if $blue == 10 {
@@ -132,7 +132,7 @@
   }
 }
 
-@mixin bronze($bronze: 'base') {
+@mixin bronze($bronze: "base") {
   @if $bronze == base {
     color: variables.$color-bronze-base;
   } @else if $bronze == 10 {
@@ -158,7 +158,7 @@
   }
 }
 
-@mixin purple($purple: 'base') {
+@mixin purple($purple: "base") {
   @if $purple == base {
     color: variables.$color-purple-base;
   } @else if $purple == 10 {
@@ -184,7 +184,7 @@
   }
 }
 
-@mixin magenta($magenta: 'base') {
+@mixin magenta($magenta: "base") {
   @if $magenta == base {
     color: variables.$color-magenta-base;
   } @else if $magenta == 10 {
@@ -210,7 +210,7 @@
   }
 }
 
-@mixin indigo($indigo: 'base') {
+@mixin indigo($indigo: "base") {
   @if $indigo == base {
     color: variables.$color-indigo-base;
   } @else if $indigo == 10 {
@@ -236,7 +236,7 @@
   }
 }
 
-@mixin sky($sky: 'base') {
+@mixin sky($sky: "base") {
   @if $sky == base {
     color: variables.$color-sky-base;
   } @else if $sky == 10 {
@@ -262,7 +262,7 @@
   }
 }
 
-@mixin teal($teal: 'base') {
+@mixin teal($teal: "base") {
   @if $teal == base {
     color: variables.$color-teal-base;
   } @else if $teal == 10 {
@@ -288,7 +288,7 @@
   }
 }
 
-@mixin slate($slate: 'base') {
+@mixin slate($slate: "base") {
   @if $slate == base {
     color: variables.$color-slate-base;
   } @else if $slate == 10 {
@@ -314,7 +314,7 @@
   }
 }
 
-@mixin dusk($dusk: 'base') {
+@mixin dusk($dusk: "base") {
   @if $dusk == base {
     color: variables.$color-dusk-base;
   } @else if $dusk == 10 {
@@ -337,5 +337,81 @@
     color: variables.$color-dusk-90;
   } @else if $dusk == 100 {
     color: variables.$color-dusk-100;
+  }
+}
+
+@mixin electric-purple($electric-purple: "base") {
+  @if $electric-purple == base {
+    color: variables.$brand-colors-electric-purple-100;
+  } @else if $electric-purple == 20 {
+    color: variables.$brand-colors-electric-purple-20;
+  } @else if $electric-purple == 40 {
+    color: variables.$brand-colors-electric-purple-40;
+  } @else if $electric-purple == 60 {
+    color: variables.$brand-colors-electric-purple-60;
+  } @else if $electric-purple == 80 {
+    color: variables.$brand-colors-electric-purple-80;
+  } @else if $electric-purple == 100 {
+    color: variables.$brand-colors-electric-purple-100;
+  }
+}
+
+@mixin brand-lime($brand-lime: "base") {
+  @if $brand-lime == base {
+    color: variables.$brand-colors-brand-lime-100;
+  } @else if $brand-lime == 20 {
+    color: variables.$brand-colors-brand-lime-20;
+  } @else if $brand-lime == 40 {
+    color: variables.$brand-colors-brand-lime-40;
+  } @else if $brand-lime == 60 {
+    color: variables.$brand-colors-brand-lime-60;
+  } @else if $brand-lime == 80 {
+    color: variables.$brand-colors-brand-lime-80;
+  } @else if $brand-lime == 100 {
+    color: variables.$brand-colors-brand-lime-100;
+  }
+}
+
+@mixin sand($sand: "base") {
+  @if $sand == base {
+    color: variables.$brand-colors-sand-100;
+  } @else if $sand == 60 {
+    color: variables.$brand-colors-sand-60;
+  } @else if $sand == 80 {
+    color: variables.$brand-colors-sand-80;
+  } @else if $sand == 100 {
+    color: variables.$brand-colors-sand-100;
+  }
+}
+
+@mixin sky-blue($sky-blue: "base") {
+  @if $sky-blue == base {
+    color: variables.$brand-colors-sky-blue-100;
+  } @else if $sky-blue == 20 {
+    color: variables.$brand-colors-sky-blue-20;
+  } @else if $sky-blue == 40 {
+    color: variables.$brand-colors-sky-blue-40;
+  } @else if $sky-blue == 60 {
+    color: variables.$brand-colors-sky-blue-60;
+  } @else if $sky-blue == 80 {
+    color: variables.$brand-colors-sky-blue-80;
+  } @else if $sky-blue == 100 {
+    color: variables.$brand-colors-sky-blue-100;
+  }
+}
+
+@mixin dark-pine($dark-pine: "base") {
+  @if $dark-pine == base {
+    color: variables.$brand-colors-dark-pine-100;
+  } @else if $dark-pine == 20 {
+    color: variables.$brand-colors-dark-pine-20;
+  } @else if $dark-pine == 40 {
+    color: variables.$brand-colors-dark-pine-40;
+  } @else if $dark-pine == 60 {
+    color: variables.$brand-colors-dark-pine-60;
+  } @else if $dark-pine == 80 {
+    color: variables.$brand-colors-dark-pine-80;
+  } @else if $dark-pine == 100 {
+    color: variables.$brand-colors-dark-pine-100;
   }
 }

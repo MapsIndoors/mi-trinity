@@ -1,6 +1,6 @@
-@use 'build/scss/variables';
+@use "build/scss/variables";
 
-@mixin width($width: 'medium') {
+@mixin width($width: "medium") {
   @if $width == medium {
     border-width: variables.$rounding-x-small;
   } @else if $width == large {
@@ -10,7 +10,7 @@
   }
 }
 
-@mixin style($style: 'solid') {
+@mixin style($style: "solid") {
   @if $style == solid {
     border-style: solid;
   } @else if $style == none {
@@ -18,27 +18,27 @@
   }
 }
 
-@mixin radius($radius: 'medium') {
-  @if $radius == 'medium' {
+@mixin radius($radius: "medium") {
+  @if $radius == "medium" {
     border-radius: variables.$rounding-medium;
-  } @else if $radius == 'xx-small' {
+  } @else if $radius == "xx-small" {
     border-radius: variables.$rounding-xx-small;
-  } @else if $radius == 'x-small' {
+  } @else if $radius == "x-small" {
     border-radius: variables.$rounding-x-small;
-  } @else if $radius == 'small' {
+  } @else if $radius == "small" {
     border-radius: variables.$rounding-small;
-  } @else if $radius == 'large' {
+  } @else if $radius == "large" {
     border-radius: variables.$rounding-large;
-  } @else if $radius == 'x-large' {
+  } @else if $radius == "x-large" {
     border-radius: variables.$rounding-x-large;
-  } @else if $radius == 'pill' {
+  } @else if $radius == "pill" {
     border-radius: variables.$rounding-pill;
-  } @else if $radius == 'circle' {
+  } @else if $radius == "circle" {
     border-radius: variables.$rounding-circle;
   }
 }
 
-@mixin black($border-black: 'base') {
+@mixin black($border-black: "base") {
   @if $border-black == base {
     border-color: variables.$color-black-base;
   } @else if $border-black == black {
@@ -46,7 +46,7 @@
   }
 }
 
-@mixin white($border-white: 'base') {
+@mixin white($border-white: "base") {
   @if $border-white == base {
     border-color: variables.$color-white-base;
   } @else if $border-white == white {
@@ -54,13 +54,13 @@
   }
 }
 
-@mixin transparent($border-transparent: 'base') {
+@mixin transparent($border-transparent: "base") {
   @if $border-transparent == base {
     border-color: variables.$color-transparent-base;
   }
 }
 
-@mixin gray($border-gray: 'base') {
+@mixin gray($border-gray: "base") {
   @if $border-gray == base {
     border-color: variables.$color-gray-base;
   } @else if $border-gray == 10 {
@@ -86,7 +86,7 @@
   }
 }
 
-@mixin red($border-red: 'base') {
+@mixin red($border-red: "base") {
   @if $border-red == base {
     border-color: variables.$color-red-base;
   } @else if $border-red == 10 {
@@ -112,7 +112,7 @@
   }
 }
 
-@mixin green($border-green: 'base') {
+@mixin green($border-green: "base") {
   @if $border-green == base {
     border-color: variables.$color-green-base;
   } @else if $border-green == 10 {
@@ -138,7 +138,7 @@
   }
 }
 
-@mixin blue($border-blue: 'base') {
+@mixin blue($border-blue: "base") {
   @if $border-blue == base {
     border-color: variables.$color-blue-base;
   } @else if $border-blue == 10 {
@@ -164,7 +164,7 @@
   }
 }
 
-@mixin bronze($border-bronze: 'base') {
+@mixin bronze($border-bronze: "base") {
   @if $border-bronze == base {
     border-color: variables.$color-bronze-base;
   } @else if $border-bronze == 10 {
@@ -190,7 +190,7 @@
   }
 }
 
-@mixin purple($border-purple: 'base') {
+@mixin purple($border-purple: "base") {
   @if $border-purple == base {
     border-color: variables.$color-purple-base;
   } @else if $border-purple == 10 {
@@ -216,7 +216,7 @@
   }
 }
 
-@mixin magenta($border-magenta: 'base') {
+@mixin magenta($border-magenta: "base") {
   @if $border-magenta == base {
     border-color: variables.$color-magenta-base;
   } @else if $border-magenta == 10 {
@@ -242,7 +242,7 @@
   }
 }
 
-@mixin indigo($border-indigo: 'base') {
+@mixin indigo($border-indigo: "base") {
   @if $border-indigo == base {
     border-color: variables.$color-indigo-base;
   } @else if $border-indigo == 10 {
@@ -268,7 +268,7 @@
   }
 }
 
-@mixin sky($border-sky: 'base') {
+@mixin sky($border-sky: "base") {
   @if $border-sky == base {
     border-color: variables.$color-sky-base;
   } @else if $border-sky == 10 {
@@ -294,7 +294,7 @@
   }
 }
 
-@mixin teal($border-teal: 'base') {
+@mixin teal($border-teal: "base") {
   @if $border-teal == base {
     border-color: variables.$color-teal-base;
   } @else if $border-teal == 10 {
@@ -320,7 +320,7 @@
   }
 }
 
-@mixin slate($border-slate: 'base') {
+@mixin slate($border-slate: "base") {
   @if $border-slate == base {
     border-color: variables.$color-slate-base;
   } @else if $border-slate == 10 {
@@ -346,7 +346,7 @@
   }
 }
 
-@mixin dusk($border-dusk: 'base') {
+@mixin dusk($border-dusk: "base") {
   @if $border-dusk == base {
     border-color: variables.$color-dusk-base;
   } @else if $border-dusk == 10 {
@@ -372,13 +372,89 @@
   }
 }
 
-@mixin all($all: 'none') {
+@mixin electric-purple($border-electric-purple: "base") {
+  @if $border-electric-purple == base {
+    border-color: variables.$brand-colors-electric-purple-100;
+  } @else if $border-electric-purple == 20 {
+    border-color: variables.$brand-colors-electric-purple-20;
+  } @else if $border-electric-purple == 40 {
+    border-color: variables.$brand-colors-electric-purple-40;
+  } @else if $border-electric-purple == 60 {
+    border-color: variables.$brand-colors-electric-purple-60;
+  } @else if $border-electric-purple == 80 {
+    border-color: variables.$brand-colors-electric-purple-80;
+  } @else if $border-electric-purple == 100 {
+    border-color: variables.$brand-colors-electric-purple-100;
+  }
+}
+
+@mixin brand-lime($border-brand-lime: "base") {
+  @if $border-brand-lime == base {
+    border-color: variables.$brand-colors-brand-lime-100;
+  } @else if $border-brand-lime == 20 {
+    border-color: variables.$brand-colors-brand-lime-20;
+  } @else if $border-brand-lime == 40 {
+    border-color: variables.$brand-colors-brand-lime-40;
+  } @else if $border-brand-lime == 60 {
+    border-color: variables.$brand-colors-brand-lime-60;
+  } @else if $border-brand-lime == 80 {
+    border-color: variables.$brand-colors-brand-lime-80;
+  } @else if $border-brand-lime == 100 {
+    border-color: variables.$brand-colors-brand-lime-100;
+  }
+}
+
+@mixin sand($border-sand: "base") {
+  @if $border-sand == base {
+    border-color: variables.$brand-colors-sand-100;
+  } @else if $border-sand == 60 {
+    border-color: variables.$brand-colors-sand-60;
+  } @else if $border-sand == 80 {
+    border-color: variables.$brand-colors-sand-80;
+  } @else if $border-sand == 100 {
+    border-color: variables.$brand-colors-sand-100;
+  }
+}
+
+@mixin sky-blue($border-sky-blue: "base") {
+  @if $border-sky-blue == base {
+    border-color: variables.$brand-colors-sky-blue-100;
+  } @else if $border-sky-blue == 20 {
+    border-color: variables.$brand-colors-sky-blue-20;
+  } @else if $border-sky-blue == 40 {
+    border-color: variables.$brand-colors-sky-blue-40;
+  } @else if $border-sky-blue == 60 {
+    border-color: variables.$brand-colors-sky-blue-60;
+  } @else if $border-sky-blue == 80 {
+    border-color: variables.$brand-colors-sky-blue-80;
+  } @else if $border-sky-blue == 100 {
+    border-color: variables.$brand-colors-sky-blue-100;
+  }
+}
+
+@mixin dark-pine($border-dark-pine: "base") {
+  @if $border-dark-pine == base {
+    border-color: variables.$brand-colors-dark-pine-100;
+  } @else if $border-dark-pine == 20 {
+    border-color: variables.$brand-colors-dark-pine-20;
+  } @else if $border-dark-pine == 40 {
+    border-color: variables.$brand-colors-dark-pine-40;
+  } @else if $border-dark-pine == 60 {
+    border-color: variables.$brand-colors-dark-pine-60;
+  } @else if $border-dark-pine == 80 {
+    border-color: variables.$brand-colors-dark-pine-80;
+  } @else if $border-dark-pine == 100 {
+    border-color: variables.$brand-colors-dark-pine-100;
+  }
+}
+
+@mixin all($all: "none") {
   @if $all == none {
     border: none;
   }
 }
 
-@mixin top($top: 'solid') {
+@mixin top($top: "solid") {
   @if $top == solid {
     border-top: solid;
   } @else if $top == none {
@@ -386,7 +462,7 @@
   }
 }
 
-@mixin right($right: 'solid') {
+@mixin right($right: "solid") {
   @if $right == solid {
     border-right: solid;
   } @else if $right == none {
@@ -394,7 +470,7 @@
   }
 }
 
-@mixin bottom($bottom: 'solid') {
+@mixin bottom($bottom: "solid") {
   @if $bottom == solid {
     border-bottom: solid;
   } @else if $bottom == none {
@@ -402,7 +478,7 @@
   }
 }
 
-@mixin left($left: 'solid') {
+@mixin left($left: "solid") {
   @if $left == solid {
     border-left: solid;
   } @else if $left == none {
