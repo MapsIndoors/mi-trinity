@@ -23,8 +23,16 @@
     "test": "echo \"no tests lol\" && exit 1"
   },
   "devDependencies": {
+    "auto": "^10.37.6",
     "chokidar-cli": "^3.0.0",
     "np": "^7.6.3",
     "style-dictionary": "^3.7.2"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "conventional-commits",
+      "released"
+    ]
   }
 }
