@@ -18,6 +18,7 @@ jobs:
         npm run build
 
   release:
+    needs: build
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
@@ -39,5 +40,4 @@ jobs:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
         run: |
           npm i
-          npm run build
           npx auto shipit -vv
