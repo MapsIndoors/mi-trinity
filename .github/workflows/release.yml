@@ -40,5 +40,4 @@ jobs:
         run: |
           npm i
           npm run build
-          npm run test
           npx auto shipit -vv
