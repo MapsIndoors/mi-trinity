@@ -15,7 +15,7 @@ jobs:
     - name: npm install, build, and lint
       run: |
         npm i
-        npm build
+        npm run build
 
   release:
     runs-on: ubuntu-latest
